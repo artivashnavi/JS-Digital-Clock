@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color:#3D087B ;
+    justify-content: space-between;
+    overflow: hidden;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    width: 50vw;
+    box-sizing: border-box;
+    padding-left: 13vw;
+    line-height: 1vw;
+    
+}
+.a1{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+#time{
+    display: flex;
+}
+
+#clock{
+    margin: 1vw;
+    overflow: hidden;
+}
+#leftBox{
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-evenly;
+    height: 50vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 1vw;
+    width: 35vw;
+    margin: 1vw;
+    border-radius: 1vw;
+    line-height: 1.1vw;
+    color: #3D087B;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 18px;
+}
+.setText{
+    font-family: 'Manrope', sans-serif;
+    color: #3D087BDE;
+    left: 15%;
+    position: absolute;
+}
+option {
+    color: black;
+}
+select{
+    color:black;
+}
+.line{
+    position: relative;
+    left: .8vw;
+    height: 3vw;
+    font-size: 3vw;
+    color: #3D087BDE;
+}
+.a1{
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: -.6vw;
+}
+.sel{
+    width: 15vw;
+    height: 2vw;
+    position: relative;
+    
+    border: #EDEDED 1px solid;
+
+}
+#gm{
+    font:  normal normal 900 25px/40px Bauhaus Hv BT;
+    background-color: #8E53F0;
+    padding-left: 1vw;
+    border-radius: .8vw;
+    width: 34vw;
+    height: 10vh;
+    margin: 1vw;
+    margin-bottom: .5vw;
+}
+#text{
+    opacity: 100%;
+    color: white;
+    font-size: 1.5vw;
+    line-height: 4vw;
+}
+#time{
+    margin: 1vw;
+
+}
+.column {
+    width: 40%;
+    padding: 2%; 
+}
+#bottom1{
+    display: flex;
+    align-items: center;
+
+}
+.column {
+    width: 14.6vw;
+}
+.set_alerm {
+    width: 15vw;
+    height: 8vh;
+    background: transparent linear-gradient(113deg, #6e54ec 0%, #cb52f8 40%, #fc5eff 81%, #f1a7c5 100%) 0% 0% no-repeat padding-box;
+    border-radius: 1vw;
+    opacity: 1;;
+    color: #ffffff;
+    text-align: left;
+    font: normal normal 600 24px/38px Manrope;
+    opacity: 1;
+    text-align: center;
+}
+
+.set_alerm:hover span {
+    display: none;
+}
+
+.set_alerm:hover:before {
+    content: "Party time!";
+}
+.alarm_detail {
+    width: 18.5vw;
+    height: 20vh;
+    background: #7c39c9;
+    border: none;
+    border-radius: 1vw;
+}
+
+.addtext {
+    letter-spacing: var(--unnamed-character-spacing-0);
+    margin-left: 1vw;
+    /* margin-top: 0vw; */
+    font: normal normal bold 15px/25px Manrope;
+    line-height: 1.8vw;
+    letter-spacing: 0px;
+    color: #f25cfe;
+}
+.right{
+    width: 50vw;
+    margin-left: 1vw;
+    padding-left: 1vw;
+    box-sizing: border-box;
+}
+#b1{
+    box-sizing: border-box;
+    padding: 2vw;
+    width: 35vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2vw;
+    z-index: 3;
+    border-radius: 1vw;
+    font-family: 'Manrope', sans-serif;
+}
+#b2{
+    width: 30vw;
+    height: 3vw;
+    background-color: white;
+    opacity: 60%;
+    position: relative;
+    left: 2.5vw;
+    z-index: 2;
+    border-radius: .7vw;
+}
+#b3{
+    width: 25vw;
+    height: 2vw;
+    background-color: white;
+    opacity: 35%;
+    position: relative;
+    left: 5vw;
+    bottom: 1.2vw;
+    z-index: 1;
+    border-radius: .5vw;
+}
+#t{
+    color: #3D087B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    width: 5vw;
+    box-sizing: border-box;
+}
+.bigT{
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-left: 1vw;
+    
+}
+.pT{
+    color: #3D087B;
+    background-color: #F6E2FF;
+    font-family: 'Manrope', sans-serif;
+    font-weight: lighter;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 5vw;
+    width: 5vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: .5vw;
+    margin-right: .5vw;
+}
+.pTd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3D087B;
+    font-size: 2vw;
+}
+#meridian{
+    box-sizing: border-box;
+    display: flex;
+    font-size: 2vw;
+    height: 5vw;
+    width: 5vw;
+    margin-left: 1vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    background-color: #CB52F8;
+    color: #3D087B;
+}
+#grabText{
+    font:  normal normal 900 25px/40px Bauhaus Hv BT;
+    font-weight: bolder;
+    font-size: 1.8vw; 
+    width: 34vw;
+    background-color: white;
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 1vw;
+    border-radius: 1vw;
+    margin-bottom: 4vw;
+    color: #8E53F0;
+}
+#img{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50vw;
+}
+#imgM{  
+    width: 35.3vw;
+    position: relative;
+    top: -10px;
+    border-radius: 1vw;
+}
+
+
+
+/* ############################################################################################# */
+/* ############################################################################################# */
+/* ############################################################################################# */
+/* ############################################################################################# */
+
+
+@media screen   and (min-width:280px)and (max-width:767px){
+    .container {
+        display: flex;
+        justify-content: center;
+        background-color: #3D087B;
+        justify-content: space-between;
+        overflow: hidden;
+        flex-direction: column;
+}
+#leftBox {
+    width: 70vw;
+}
+.line {
+    left: 4vw;
+    
+}
+#gm {
+    width: 69vw;
+}
+#text {
+    font-size: 4vw;
+    line-height: 4vw;
+}
+.set_alerm {
+    width: 25vw;
+    height: 3vh;
+    opacity: 1;
+    color: #ffffff;
+    text-align: left;
+    font: normal normal 100 20px/20px Manrope;
+   
+}
+.column {
+    width: 25vw;
+}
+
+.alarm_detail {
+    width: 41vw;
+    height: 8vh;
+    background: #7c39c9 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 1vw;
+}
+
+.addtext {
+    margin-left: 1vw;
+    line-height: 1.9vh;
+    letter-spacing: 0px;
+    color: #f25cfe;
+    font-size: 3vw;
+}
+.bigT{
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-left: 1vw;
+    
+}
+
+
+.right {
+    width: 69vw;
+    margin-left: 14vw;
+    padding-left: 1vw;
+    box-sizing: border-box;
+}
+
+#b1 {
+    width: 69vw;
+}
+#b2 {
+    width: 64vw;
+    height: 3.5vw;
+}
+#b3 {
+    width: 60vw;
+    height: 2.5vw;
+}
+#gm {
+    width: 69vw;
+    height: 5vh;
+}
+.line {
+    position: relative;
+    left: 3vw;
+    height: 3vw;
+    font-size: 8vw;
+    color: #3D087BDE;
+}
+.setText {
+    font-family: 'Manrope', sans-serif;
+    color: #3D087BDE;
+    left: 15%;
+    position: absolute;
+    font-size: 12px;
+}
+.sel {
+    width: 30vw;
+    height: 5vw;
+    position: relative;
+    border: #EDEDED 1px solid;
+}
+#t {
+    height: 4vw;
+    width: 9vw;
+    box-sizing: border-box;
+    font-size: small;
+}
+#grabText {
+    font-size: 3vw;
+    width: 68vw;
+}
+#img {
+    display: inline-block;
+    box-sizing: border-box;
+    width: vw;
+    width: 50vh;
+    height: 50vh;
+}
+#imgM {
+    width: 69.5vw;
+    position: relative;
+    top: 5px;
+    border-radius: 1vw;
+}
+}
+/* ############################################################################################# */
+/* ############################################################################################# */
+/* ############################################################################################# */
+/* ############################################################################################# */
+@media screen   and (min-width:1024px){
+    .alarm_detail {
+        width: 18.5vw;
+        height: 20vh;
+        border: none;
+        border-radius: 1vw;
+    }
+}
+@media screen   and (min-width:1280px){
+    .alarm_detail {
+        width: 18.5vw;
+        height: 12vh;
+        border: none;
+        border-radius: 1vw;
+    }
+}
+
