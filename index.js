@@ -37,7 +37,7 @@ function clockTime() {
 
 
     let meridian;
-    if (hours > 12) {
+    if (hours >= 12) {
         meridian = "PM"
         hours -= 12;
     }
